@@ -15,60 +15,119 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body >
-      <nav class="topNav navbar fixed-top navbar-expand-lg  navbar-dark bg-dark">
+    <main>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="d-inline-block align-text-top" src="images/Nav Logo.jpeg" alt="logo"  width="30" height="30">
-            REDEEMING LOVE CHURCH
+          <a class="navbar-brand" href="#">
+            <img src="/images/Nav Logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            RLC
           </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-
-            <ul class="navnames navbar-nav me-auto mb-2 mb-lg-0">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                   <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sermons</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ministries</a>
+                <a class="nav-link" href="#">Ministry</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
             </ul>
-
-            <form class="formSearch d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
-
-         </div>
+          </div>
         </div>
       </nav>
-
-      <section>
-        <img class="bannerimage"src="images/banner.jpeg" alt="banner">
+      <header>
+        <h1><strong>Redeeming Love Church</strong></h1>
+      </header>
+      <hr>
+      <section class="welcome--section">
+      
+        <h2>
+          Upcoming Events
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Time</th>
+              <th>Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Sundays</th>
+              <td>7:30am - 9am</td>
+              <td>Youth Ablaze Service</td>
+            </tr>
+            <tr>
+              <th>Sundays</th>
+              <td>9am - 11pm</td>
+              <td>Fresh Fire Service</td>
+            </tr>
+            <tr>
+              <th>Wednesday</th>
+              <td>5:30pm - 8:30pm</td>
+              <td>PowerZone Service</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
-        <section>
-          <div class="container">
-            <div class="row">
-
-              <div class="col">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=308&href=https%3A%2F%2Fwww.facebook.com%2Fsamuel.okine.509%2Fvideos%2F3225203390857236%2F&show_text=false&width=560&t=0" width="560" height="308" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="false"></iframe>
-              </div>
-              <div class="col">
-         
-
-              </div>
-            </div>
-          </div>
-        </section>
-
-
+      <section class="latest--message">
+        <div class="latest--video">
+         <video width="700" height="240"  controls src=".." poster="images/revsamuel.jpeg" >
+          <source src=".." type="video/mp4">
+        </video>
+        </div>
+        <div class="video--details">
+          <table>
+            <tr>
+              <th>Date :</th>
+              <td class="text-size">Sunday, 5th September 2021</td>
+            </tr>
+            <tr>
+              <th>Message :</th>
+              <td class="text-size">The Jesus Agenda</td>
+            </tr>
+            <tr>
+              <th>Speaker :</th>
+              <td class="text-size">Reverend Samuel Makarios-Okine</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="contact--details">
+        <table>
+          <tr>
+            <th>Location :</th>
+            <td class="text-size">North Kanashie</td>
+          </tr>
+    
+          <tr>         
+            <th>Tel :</th>
+            <td class="text-size">0241491145 / 0242521988</td>
+          </tr>
+   
+          <tr>
+            <th>Email :</th>
+            <td class="text-size">...</td>
+          </tr>
+          
+            
+          
+          
+        </table>
+      </section>
+      <footer class="footer">
+        <p>Copyright ©2021 Redeeming Love Church. All Rights Reserved.</p>
+      </footer>
+    </main>
 
   </body>
 </html>
